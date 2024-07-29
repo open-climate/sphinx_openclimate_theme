@@ -6,12 +6,13 @@
 """
 from io import open
 from setuptools import setup
-import versioneer
+#import versioneer
 
 setup(
     name='sphinx_openclimate_theme',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+#    version=versioneer.get_version(),
+#    cmdclass=versioneer.get_cmdclass(),
+    version='0.0.1',
     url='https://github.com/open-climate/sphinx_openclimate_theme/',
     license='MIT',
     author='Ian Edwards',
